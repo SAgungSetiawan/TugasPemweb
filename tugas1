@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WibuNime</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .navbar {
+      height: 8vh;
+      background-color: #5e17eb !important;
+    }
+
+    .hero-container {
+      height: 77vh;
+      position: relative;
+    }
+
+    .hero-container img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .hero-content h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero-content p {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-content .btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+    }
+
+    footer {
+      height: 15vh;
+      background-color: #5e17eb;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="">WibuNime</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Anime Populer</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Genre</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-container">
+    <img src="https://c4.wallpaperflare.com/wallpaper/142/751/831/landscape-anime-digital-art-fantasy-art-wallpaper-preview.jpg" alt="Hero Gambar" />
+    <div class="hero-content">
+      <h1>Selamat Datang di WibuNime</h1>
+      <p>Temukan anime favoritmu, tonton sepuasnya!</p>
+      <a href="" class="btn btn-light">Jelajahi Anime</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Ikuti kami:</p>
+    <p>
+      <a href="" class="me-3">Facebook</a>
+      <a href="" class="me-3">Twitter</a>
+      <a href="">Instagram</a>
+    </p>
+    <p class="mb-0">© 2025 WibuNime. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>
